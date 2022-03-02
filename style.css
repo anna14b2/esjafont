@@ -32,8 +32,39 @@ body {
   background-color: #f8f3e8;
 }
 
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
 #section1 svg {
   display: flex;
   margin: auto;
   margin-top: 5rem;
+}
+
+#section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#section2 article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+#section2 figure {
+  display: flex;
+  align-self: center;
+  padding: 3rem;
+  width: 80%;
 }
